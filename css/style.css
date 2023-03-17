@@ -11,3 +11,54 @@
     width: 100px;
     margin: auto;
 }
+
+.button, .input{
+    padding: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.input {
+    width: 400px;
+}
+
+.red {
+    color: red;
+}
+
+.task-List * {
+    display: inline-block;
+} 
+
+.tasks {
+background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 25px 500px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    
+}
+
+.barrato {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.remove {
+    font-size: 25px;
+
+}
+
+.txt-task  {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(0, 21, 51);
+}
